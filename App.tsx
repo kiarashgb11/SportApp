@@ -86,7 +86,7 @@ function App(): JSX.Element {
           <Section title="Debug">
             <DebugInstructions />
           </Section>
-          <Section title="Learn More">
+          <Section title="Learn Moreeee">
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
