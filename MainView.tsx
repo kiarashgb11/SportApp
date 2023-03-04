@@ -22,8 +22,8 @@ const MainImages = () => {
 const MainView = () => {
     return(
     <View style={{backgroundColor:'#181', flex:1, }}>
-      <View  style={{backgroundColor:'#181B22', flex:0.07,}}></View>
-      <View  style={{backgroundColor:'#A76B09', flex:0.93,}}><MainImages/></View>
+      <View  style={{backgroundColor:'#A76B09', flex:0.07,}}></View>
+      <View  style={{backgroundColor:'#181B22', flex:0.93,}}><MainImages/></View>
     </View>);
   }
 

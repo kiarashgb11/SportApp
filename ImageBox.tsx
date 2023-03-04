@@ -3,13 +3,13 @@ import {View, Image, StyleSheet, Dimensions} from 'react-native';
 
 const IMAGES = [
   require('./images/soccer.png'),
-  require('./images/soccer.png'),
-  require('./images/soccer.png'),
-  require('./images/soccer.png'),
+  require('./images/Basketball.png'),
+  require('./images/Hockey.png'),
+  require('./images/UFC1.png'),
 ];
 
 const SquareImageGrid = () => {
-  const { width } = Dimensions.get('window');
+  const { width} = Dimensions.get('window');
   const imageSize = width * 0.5 - 20;
   return (
     <View style={styles.container}>
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    paddingBottom:25,
   },
   image: {
     margin: 2,
