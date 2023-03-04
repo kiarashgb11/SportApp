@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Image, StyleSheet, Dimensions} from 'react-native';
+import {View, Image, StyleSheet, Dimensions, TouchableOpacity} from 'react-native';
 
 const IMAGES = [
   require('./images/soccer.png'),
@@ -13,12 +13,24 @@ const SquareImageGrid = () => {
   const imageSize = width * 0.5 - 20;
   return (
     <View style={styles.container}>
-      <Image source={IMAGES[0]} style={[styles.image, { width: imageSize, height: imageSize }]} />
-      <Image source={IMAGES[1]} style={[styles.image, { width: imageSize, height: imageSize }]} />
-      <Image source={IMAGES[2]} style={[styles.image, { width: imageSize, height: imageSize }]} />
-      <Image source={IMAGES[3]} style={[styles.image, { width: imageSize, height: imageSize }]} />
+      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
+        <Image source={IMAGES[0]}  style = {{width: imageSize, height: imageSize }}/>
+      </TouchableOpacity>
+      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
+        <Image source={IMAGES[1]}  style = {{width: imageSize, height: imageSize }}/>
+      </TouchableOpacity>
+      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
+        <Image source={IMAGES[2]}  style = {{width: imageSize, height: imageSize }}/>
+      </TouchableOpacity>
+      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
+        <Image source={IMAGES[3]}  style = {{width: imageSize, height: imageSize }}/>
+      </TouchableOpacity>
     </View>
   );
+};
+
+const Try = () => {
+   console.log("Hello");
 };
 
 const styles = StyleSheet.create({
