@@ -14,7 +14,7 @@ const MainImages = () => {
     return(<SquareImageGrid/>);
     return (
 <Image style={{width:"50%",
- height:"50%", flex:1, paddingLeft: 20,
+ height:"50%", flex:1, paddingLeft: 10,
  resizeMode:'contain', position:'absolute', top:0}} source={require("./images/soccer.png")}/>
     );
 }
