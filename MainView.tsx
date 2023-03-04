@@ -14,7 +14,7 @@ const MainImages = () => {
     return(<SquareImageGrid/>);
     return (
 <Image style={{width:"50%",
- height:"50%", flex:1, paddingLeft: 20,
+ height:"50%", flex:1, paddingLeft: 10,
  resizeMode:'contain', position:'absolute', top:0}} source={require("./images/soccer.png")}/>
     );
 }
@@ -22,8 +22,8 @@ const MainImages = () => {
 const MainView = () => {
     return(
     <View style={{backgroundColor:'#181', flex:1, }}>
-      <View  style={{backgroundColor:'#181B22', flex:0.07,}}></View>
-      <View  style={{backgroundColor:'#A76B09', flex:0.93,}}><MainImages/></View>
+      <View  style={{backgroundColor:'#A76B09', flex:0.07,}}></View>
+      <View  style={{backgroundColor:'#181B22', flex:0.93,}}><MainImages/></View>
     </View>);
   }
 
