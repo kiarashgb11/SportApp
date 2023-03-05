@@ -24,8 +24,8 @@ const Search = () => {
         inputStyle={{backgroundColor:'#946020', opacity:100}}
     />);
 };
-const MainImages = () => {
-    return(<SquareImageGrid/>);
+const MainImages = (props: any) => {
+    return(<SquareImageGrid />);
     return (
 <Image style={{width:"50%",
  height:"50%", flex:1, paddingLeft: 10,
@@ -33,11 +33,11 @@ const MainImages = () => {
     );
 }
 
-const MainView = () => {
+const MainView = (props: any) => {
     return(
     <View style={{backgroundColor:'#181', flex:1, }}>
       <View  style={{backgroundColor:'#181B22', flex:0.07, justifyContent:'center'}}><Search/></View>
-      <View  style={{backgroundColor:'#181B22', flex:0.93,}}><MainImages/></View>
+      <View  style={{backgroundColor:'#181B22', flex:0.93,}}><MainImages  /></View>
     </View>);
   }
 
