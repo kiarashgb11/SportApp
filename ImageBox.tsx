@@ -1,5 +1,7 @@
 import React from 'react';
 import {View, Image, StyleSheet, Dimensions, TouchableOpacity} from 'react-native';
+import SoccerPage from './SoccerPage';
+import { useNavigation } from '@react-navigation/native';
 
 const IMAGES = [
   require('./images/soccer.png'),
@@ -8,12 +10,13 @@ const IMAGES = [
   require('./images/UFC1.png'),
 ];
 
-const SquareImageGrid = () => {
+const SquareImageGrid = (props: any) => {
   const { width} = Dimensions.get('window');
   const imageSize = width * 0.5 - 20;
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
+      <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => navigation.navigate('Profile')}>
         <Image source={IMAGES[0]}  style = {{width: imageSize, height: imageSize }}/>
       </TouchableOpacity>
       <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
