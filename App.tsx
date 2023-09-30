@@ -25,20 +25,47 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import MainView from './MainView';
+import SoccerPage from './SoccerPage'
+
+import {NavigationContainer} from '@react-navigation/native'
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
 
 function App(): JSX.Element {
+  
+
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          options={{headerShown: false}}
+          component={HomeScreen}
+        />
+        <Stack.Screen name="Leagues" 
+        component={SoccerPage}
+         />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+  
+}
+
+const HomeScreen = (props: any) => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: isDarkMode ? Colors.darker : Colors.darker,
   };
-
   return (
-    <View style={{backgroundColor:"#fff", flex:1}}>
+
+    
+    <View style={{backgroundColor:"#181B22", flex:1}}>
     <SafeAreaView style={backgroundStyle}>
       
     </SafeAreaView>
-    <MainView/>
+    <MainView navigate={props.navigation.navigate}/>
     </View>
   );
 }
