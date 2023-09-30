@@ -40,9 +40,12 @@ function App(): JSX.Element {
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
+          options={{headerShown: false}}
           component={HomeScreen}
         />
-        <Stack.Screen name="Profile" component={SoccerPage} />
+        <Stack.Screen name="Leagues" 
+        component={SoccerPage}
+         />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -58,7 +61,7 @@ const HomeScreen = (props: any) => {
   return (
 
     
-    <View style={{backgroundColor:"#fff", flex:1}}>
+    <View style={{backgroundColor:"#181B22", flex:1}}>
     <SafeAreaView style={backgroundStyle}>
       
     </SafeAreaView>

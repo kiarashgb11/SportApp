@@ -1,0 +1,1338 @@
+
+
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Car & Home Insurance with Onlia Insurance</title>
+    <meta name="title" content="Onlia Insurance | Online Car & Home Insurance" /><meta name="description" content="Onlia Insurance is making home and car insurance easier with free quotes online. Maximize your savings on insurance in Ontario by bundling auto and home." /><meta name="robots" content="INDEX, FOLLOW" />
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Onlia Insurance | Online Car &amp; Home Insurance">
+    <meta property="og:description" content="Onlia Insurance is making home and car insurance easier with free quotes online. Maximize your savings on insurance in Ontario by bundling auto and home.">
+    <meta property="og:image" content="https://www.onlia.ca/-/media/one-onlia/homepage/new-campaign/homepage_share_eric.jpg?rev=b2b63ec151c6437b9a974f6413c1f2ef">
+    <meta property="og:url" content="https://www.onlia.ca/">
+    <meta property="og:site_name" content="Onlia">
+
+    <link rel="canonical" href="https://www.onlia.ca/" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    
+
+    <link rel="stylesheet" href="/Onlia/dist/styles.main.7c17c2096cab37052501.css" />
+
+        
+    <link rel="preload" href="/Onlia/Content/ir_theme/fonts/EuclidCircularB-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Onlia/Content/ir_theme/fonts/EuclidCircularB-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Onlia/Content/ir_theme/fonts/EuclidCircularB-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- <link rel="preload" href="/Onlia/Content/ir_theme/fonts/Muli-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Onlia/Content/ir_theme/fonts/Muli-Regular.woff2" as="font" type="font/woff2" crossorigin> -->
+    <link rel="preload" href="/Onlia/Content/ir_theme/fonts/icomoon/fonts/icomoon.woff2?pyxzpx" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="script" href="/Onlia/dist/vendors.main.80ef3423f360a0713071.js">
+    <link rel="preload" as="script" href="/Onlia/dist/layout.da1eaad832a9d4b0566a.js">
+
+<script>dataLayer = window.dataLayer || [];dataLayer.push({"UserID":"5ecd5c8b-5363-4fcc-bfcf-ea13e75dec0e"});
+</script>
+<script type="text/javascript">
+!function(T,l,y){var S=T.location,u="script",k="instrumentationKey",D="ingestionendpoint",C="disableExceptionTracking",E="ai.device.",I="toLowerCase",b="crossOrigin",w="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"4",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[I](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,p,l,u;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][I]()]=i[1])}if(!e[D]){var r=e.endpointsuffix,o=r?e.location:null;e[D]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[k]||d[k]||"",p=s[D],l=p?p+"/v2/track":config.endpointUrl,(u=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=l,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),u.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,l)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:w,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(w,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(u,l))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(u);n.src=h;var e=y[b];return!e&&""!==e||"undefined"==n[b]||(n[b]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(u)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[C]&&!0!==s[C]){method="onerror",t(["_"+method]);var c=T[method];T[method]=function(e,t,n,a,i){var r=c&&c(e,t,n,a,i);return!0!==r&&m["_"+method]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);(T[t]=n).queue&&0===n.queue.length&&n.trackPageView({})}(window,document,{
+src: "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js", // The SDK URL Source
+//name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+//ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+//useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+//crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag 
+cfg: { // Application Insights Configuration
+    instrumentationKey: "91e91546-929a-41c6-b9e2-3bc56f2df0a7"
+    /* ...Other Configuration Options... */
+}});
+</script>
+
+<link rel="preconnect" href="https://w.usabilla.com" crossOrigin />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PDWQ9CV');</script>
+<!-- End Google Tag Manager -->
+<style>.a-surflyWidget{text-transform:uppercase;font-size:14px;color:#555}</style>
+<style>@media(max-width: 767px){.o-heroBanner__col{padding:15px 0}}.o-heroBanner__col .over-h:empty{display:none}</style><script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Organization", "legalName" : "Onlia Holding Inc.", "name" : "Onlia Holding Inc.", "foundingDate" : "2018", "disambiguatingDescription": "Insurance and mobile technology", "description" : "Onlia Holding Inc. offers innovative and provincially regulated digital car and home insurance, and mobile technology products, to the Canadian market. Onlia’s mission is to create a community around making Canada a safer place, and to provide tools and incentives to improve road safety.", "url" : "https://www.onlia.ca", "address": { "@type": "PostalAddress", "addressCountry" : "Canada", "addressLocality": "Toronto", "addressRegion": "ON", "postalCode": "M5A 0L6", "streetAddress": "351 King St E, Suite 801" }, "logo" : "https://www.onlia.ca/-/media/logos/onlia-logo-res1.svg?rev=e3ffad86b8ab4f52b25d6cb31fb2a6ea", "sameAs" : [ "https://www.facebook.com/onliaca","https://twitter.com/OnliaCA","https://www.instagram.com/onlia.ca/" ] } </script>
+</head>
+
+<body class="ir-body default-wide ">
+    <a class="a-skipToMain" href="#main">skip to main content</a>
+
+    <div id="ir">
+        <input name="__RequestVerificationToken" type="hidden" value="OXPK014Lok8mp1D_ETzUEZjwmB1L9mGwWi8XcZ-fclWZWnbnytXHmkG9nprbtv95aNhf5HoLezhIc9sHueX1WV3bLtUTwXx8TqS5oF_rIi01" />
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDWQ9CV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->        
+
+        
+
+<header-nav inline-template
+            :shopping-basket-badge="0"
+            :is-authenticated="false"
+            >
+    <header :class="[ 'HeaderNav', { 'HeaderNav--top-hidden' : isTopNavHidden  } ]"
+            role="navigation"
+            >
+        
+            <nav v-if="!isMobile"
+                 class="HeaderNav__nav HeaderNav__nav--top"
+                 aria-labelledby="subNavigationLabel">
+                
+                <h2 id="subNavigationLabel" class="HeaderNav__nav-bar-aria-heading">Sub-Navigation</h2>
+
+                <div class="HeaderNav__content-container container">
+                    <ul class="HeaderNav__nav-list HeaderNav__nav-list--top">
+
+
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" data-index="0" >
+                                    <a class="HeaderNav__link FocusableElement" href="/about"> 
+
+
+                                    
+                                    
+
+About                                    
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" data-index="1" >
+                                    <a class="HeaderNav__link FocusableElement" href="/magazine"> 
+
+
+                                    
+                                    
+
+Magazine                                    
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" data-index="2" >
+                                    <a class="HeaderNav__link FocusableElement" href="/savings/discounts"> 
+
+
+                                    
+                                    
+
+Discounts                                    
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" data-index="3" >
+                                    <a class="HeaderNav__link FocusableElement" href="/support"> 
+
+
+                                    
+                                    
+
+Support                                    
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" data-index="4" >
+                                    <a class="HeaderNav__link FocusableElement" href="/claims"> 
+
+
+                                    
+                                    
+
+Claims                                    
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+
+                        
+                                <li class="HeaderNav__nav-item" @focusin="handleFocus" @focusout="handleBlur" >
+                                    <a href="/insurance/sign-in" aria-label="Sign in" class="HeaderNav__link HeaderNav__link--purple FocusableElement"> 
+                                    Sign in
+                                    <span class="outline" tabindex="-1"></span>
+                                    </a>
+                                </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <nav class="HeaderNav__nav HeaderNav__nav--bottom" aria-labelledby="mainNavigationLabel">
+            
+            <h2 id="mainNavigationLabel" class="HeaderNav__nav-bar-aria-heading">Main Navigation</h2>
+
+            <div class="HeaderNav__content-container container">
+
+                <div class="HeaderNav__bottom-wrapper">
+
+                    <div class="HeaderNav__left-container">
+                        <a class="HeaderNav__logo-link FocusableElement" data-gtm-action="Component Header" data-gtm-category="User Interaction" data-gtm-label="Logo" href="/" label="Holding"><img src="/-/media/logos/onlia_insurance_logo.svg?rev=a472b858b2fe471b996a9f6401a5625c&amp;hash=8D6AD7A5A4D80D0BAC638B03B9BA2321" class="HeaderNav__logo-image" alt="Onlia Insurance" /><span class="outline" tabindex="-1"></span></a>
+                    </div>
+
+                    <div class="HeaderNav__center-container" v-if="!isMobile">
+
+
+        <div class="MainNavProductBar-container">
+            <ul class="MainNavProductBar">
+                    <li :class="isActiveProductLink('/car-insurance') ? '-active' : ' '">
+                        <a class="MainNavProductBar__item FocusableElement -car" href="/car-insurance"> 
+                        <div>
+                           Car
+                        </div>
+
+                        <span class="outline" tabindex="-1"></span>
+                        </a>
+                    </li>
+                    <li :class="isActiveProductLink('/home-insurance') ? '-active' : ' '">
+                        <a class="MainNavProductBar__item FocusableElement -home" href="/home-insurance"> 
+                        <div>
+                           Home
+                        </div>
+
+                        <span class="outline" tabindex="-1"></span>
+                        </a>
+                    </li>
+                    <li :class="isActiveProductLink('/tenant-insurance') ? '-active' : ' '">
+                        <a class="MainNavProductBar__item FocusableElement -tenant" href="/tenant-insurance"> 
+                        <div>
+                           Tenant
+                        </div>
+
+                        <span class="outline" tabindex="-1"></span>
+                        </a>
+                    </li>
+                    <li :class="isActiveProductLink('/condo-insurance') ? '-active' : ' '">
+                        <a class="MainNavProductBar__item FocusableElement -condo" href="/condo-insurance"> 
+                        <div>
+                           Condo
+                        </div>
+
+                        <span class="outline" tabindex="-1"></span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+                    </div>
+
+                    <div class="HeaderNav__right-container">
+                        <ul class="quick-feature">
+                                    <li 
+                                        class="quick-feature--item d-none d-lg-block">
+                                            <onlia-button tag="a"
+                                                          href="/insurance/cart"
+                                                          header
+                                                          add-g-t-m
+                                                          gtm-label-component-name="Header">
+Get a quote                                            </onlia-button>
+                                    </li>
+                                    <li 
+                                        class="quick-feature--item d-lg-block"
+                                        v-if="isMobile">
+                                            <onlia-button tag="a"
+                                                          href="/insurance/cart"
+                                                          header
+                                                          v-cloak
+                                                          add-g-t-m
+                                                          gtm-label-component-name="Header">
+                                                Get a quote
+                                            </onlia-button>
+                                    </li>
+                                <li class="HeaderNav__hamburger-container d-lg-none">
+                                        <transition name="fade" appear>
+                                            <hamburger-menu button-aria-label="Hamburger menu">
+                                                <menu-nav :is-collapsed="isMenuCollapsed"
+                                                        :shopping-basket-count="shoppingBasketCount"
+                                                        inline-template
+                                                        v-cloak>
+                                                    <div>
+                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="HamburgerMenu__list">
+            <li role="menuitem" class="row HamburgerMenu__listRow">
+                <div class="col-6">
+                    <ul v-if="isMobile" class="HamburgerMenu__secondary-links-list" role="menu">
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary"
+                                v-track-mobile-navigation="'About'">
+                                <a href="/about" role="menuitem" class="HamburgerDropDown__heading FocusableElement"> 
+                                
+
+                                
+                                
+                                About
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+
+
+
+                            </li>
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary"
+                                v-track-mobile-navigation="'Magazine'">
+                                <a href="/magazine" role="menuitem" class="HamburgerDropDown__heading FocusableElement"> 
+                                
+
+                                
+                                
+                                Magazine
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+
+
+
+                            </li>
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary"
+                                v-track-mobile-navigation="'Discounts'">
+                                <a href="/savings/discounts" role="menuitem" class="HamburgerDropDown__heading FocusableElement"> 
+                                
+
+                                
+                                
+                                Discounts
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+
+
+
+                            </li>
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary"
+                                v-track-mobile-navigation="'Support'">
+                                <a href="/support" role="menuitem" class="HamburgerDropDown__heading FocusableElement"> 
+                                
+
+                                
+                                
+                                Support
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+
+
+
+                            </li>
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary"
+                                v-track-mobile-navigation="'Claims'">
+                                <a href="/claims" role="menuitem" class="HamburgerDropDown__heading FocusableElement"> 
+                                
+
+                                
+                                
+                                Claims
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+
+
+
+                            </li>
+
+                            <li class="HamburgerMenu__item HamburgerMenu__item--secondary -primary">
+                                <a href="/insurance/sign-in" aria-label="Sign in" class="HamburgerDropDown__heading FocusableElement"> 
+                                Sign in
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <ul class="HamburgerMenu__secondary-links-products-list col-6">
+                            <li class="HamburgerProductBar__item-body" v-track-mobile-navigation="'Car'">
+                                <a href="/car-insurance" role="menuitem" class="HamburgerProductBar__item FocusableElement"> 
+                                Car
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+                            </li>
+                            <li class="HamburgerProductBar__item-body" v-track-mobile-navigation="'Home'">
+                                <a href="/home-insurance" role="menuitem" class="HamburgerProductBar__item FocusableElement"> 
+                                Home
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+                            </li>
+                            <li class="HamburgerProductBar__item-body" v-track-mobile-navigation="'Tenant'">
+                                <a href="/tenant-insurance" role="menuitem" class="HamburgerProductBar__item FocusableElement"> 
+                                Tenant
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+                            </li>
+                            <li class="HamburgerProductBar__item-body" v-track-mobile-navigation="'Condo'">
+                                <a href="/condo-insurance" role="menuitem" class="HamburgerProductBar__item FocusableElement"> 
+                                Condo
+                                <span class="outline" tabindex="-1"></span>
+                                </a>
+                            </li>
+
+                </ul>
+            </li>
+
+</ul>
+
+                                                    </div>
+                                                </menu-nav>
+                                            </hamburger-menu>
+                                        </transition>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="HeaderNav__border"></div>
+
+    </header>
+
+</header-nav>
+
+<dynamic-modal modal-id="logoutWithItemsModalID" modal-url="/insurance/cart/_views/logout-with-basket-items">
+</dynamic-modal>
+
+
+        
+
+        <main class="body-content wide" role="main" id="main">
+            <div class="content-page">
+
+                
+    <div class="o-heroBanner -left -top">
+        <picture>
+             <source srcset="/-/media/one-onlia/homepage/homepage-banners---comp/homepage-banner-desktop-comp.jpg?rev=ea4b8f0aa39b406aa999eef1a7a14836" media="(min-width: 768px)" />
+             <source srcset="/-/media/one-onlia/homepage/homepage-banners---comp/homepage-banner-mobile-comp.jpg?rev=7baf1fe1d2bd45959ddcdaf6b5b8b24a" media="(min-width: 300px)" />
+             <img src="/-/media/one-onlia/homepage/homepage-banners---comp/homepage-banner-desktop-comp.jpg?rev=ea4b8f0aa39b406aa999eef1a7a14836" class="o-heroBanner__bg" />
+        </picture>    
+        <div class="o-heroBanner__container container">
+            <div class="o-heroBanner__col">
+                                    <h1 class="o-heroBanner__heading">
+                        Choose Onlia to start saving on auto &amp; home insurance
+                    </h1>
+                                    <div class="o-heroBanner__body">
+                        Getting coverage has never been easier.
+                    </div>
+                                    <div>
+                        <onlia-button add-g-t-m="" class="OnliaButton--margin-top" gtm-label-component-name="Hero component" href="/insurance/cart" label="Start saving now" variant="secondary"></onlia-button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="m-textCtaImage1Col container padd-top-50    -left">
+        <div class="row">
+            <div class="m-textCtaImage1Col__contentContainer col-lg-12">
+
+                    <h2 class="m-textCtaImage1Col__heading">
+                        Switch to Onlia in 3 easy steps
+                    </h2>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+<section class="o-3CardList container1 padd-top-50 padd-bottom-50  ">
+    <div class="container">
+        <ul class="o-3CardList__itemsContainer row">
+                    <li class="o-3CardList__itemWrapper col-lg-4">
+                    
+                        <div class="m-cardItem -default ">
+
+                            <h2 class="m-cardItem__heading">
+                                
+                            </h2>
+
+                            <div class="m-cardItem__body -mb">
+                                <h2><span style="color: #000000;">Get a quote online in just a few minutes</span></h2>
+<br />
+<p>Fill in a few details to see your price. Checkout, and be covered as soon as the next day.</p>
+                            </div>
+
+                            
+                                <div class="m-cardItem__buttonContainer">
+                                    <onlia-button :white="false" class="" href="/insurance/cart" label="Start your quote"></onlia-button>
+                                </div>
+                        </div>
+                    </li>
+                    <li class="o-3CardList__itemWrapper col-lg-4">
+                    
+                        <div class="m-cardItem -default ">
+
+                            <h2 class="m-cardItem__heading">
+                                
+                            </h2>
+
+                            <div class="m-cardItem__body -mb">
+                                <h2><span style="color: #000000;">Customize your coverage &amp; see your discounts</span></h2>
+<br />
+<p>Adjust your coverage based on your needs, and see how much you save with our instant discounts.</p>
+                            </div>
+
+                            
+                                <div class="m-cardItem__buttonContainer">
+                                    <onlia-button :white="false" class="" href="/savings/discounts" label="View discounts"></onlia-button>
+                                </div>
+                        </div>
+                    </li>
+                    <li class="o-3CardList__itemWrapper col-lg-4">
+                    
+                        <div class="m-cardItem -default ">
+
+                            <h2 class="m-cardItem__heading">
+                                
+                            </h2>
+
+                            <div class="m-cardItem__body -mb">
+                                <h2><span style="color: #000000;">Manage your insurance online, anytime</span></h2>
+<br />
+<p>Log into My Account to make changes to your policy. No phone calls required.</p>
+                            </div>
+
+                            
+                                <div class="m-cardItem__buttonContainer">
+                                    <onlia-button :white="false" class="" href="/insurance/sign-in" label="Sign in"></onlia-button>
+                                </div>
+                        </div>
+                    </li>
+
+        </ul>
+    </div>
+</section>
+
+
+    <section class="o-3itemRow padd-top-50 padd-bottom-50   oo-bg-light-grey">
+        <div class="o-3itemRow__container container">
+            <div class="o-3itemRow__content-block -left -top">
+                <div class="over-h"></div>
+                <h2 class="oo-bg-light-grey h1">Why choose Onlia Insurance?</h2>
+                <div></div>
+            </div>
+            <div class="boxContainer">
+                <div class="row"> 
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">Always online</h3>
+                                                                                <div class="boxItem__content">Buy insurance, manage your policy, and submit claims online at your convenience. Plus, download our app to access your pink slip from anywhere.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">Get up to $600 cashback</h3>
+                                                                                <div class="boxItem__content">Drive safely with the Onlia Insurance&trade; app to earn up to $50 every month &mdash; that&rsquo;s an extra 30% off the average yearly premium.</div>
+                                    </div>
+                                        <div class="boxItem__action">
+                                            <a class="icon-progress-arrow oo-bg-light-grey" href="/safe-driving-app">Earn cashback now</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">Flexible policies</h3>
+                                                                                <div class="boxItem__content">Adjust your coverage, add a driver, change to long-term parking, or bundle your insurance through My Account&nbsp;any time. On demand changes, no paperwork or phone calls required.</div>
+                                    </div>
+                                        <div class="boxItem__action">
+                                            <a class="icon-progress-arrow oo-bg-light-grey" href="/insurance/sign-in">Sign into your account</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">Privacy is our priority</h3>
+                                                                                <div class="boxItem__content">We&rsquo;ll keep you safe on and offline. Personal and sensitive information is always encrypted, stored, and transmitted securely.</div>
+                                    </div>
+                                        <div class="boxItem__action">
+                                            <a class="icon-progress-arrow oo-bg-light-grey" href="/privacy-notice">Read our privacy notice</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">A trusted provider</h3>
+                                                                                <div class="boxItem__content">We&rsquo;re backed by Fairfax Financial and Achmea, so we have the resources to make insurance simple. Like other trusted companies, we&rsquo;re regulated by FSRA.</div>
+                                    </div>
+                                        <div class="boxItem__action">
+                                            <a class="icon-progress-arrow oo-bg-light-grey" href="/about">Read more about us</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="boxItemWrapper col-lg-4">
+                                <div class="boxItem -left -top">
+                                    <div>
+                                        <h3 class="boxItem__title oo-bg-light-grey">Add more, save more</h3>
+                                                                                <div class="boxItem__content"><p>Save 15% on home insurance and 20% on car when you bundle, and an additional 20% when you add more than one car to your policy. </p></div>
+                                    </div>
+                                        <div class="boxItem__action">
+                                            <a class="icon-progress-arrow oo-bg-light-grey" href="/savings/discounts">See Onlia&#39;s discounts</a>
+                                        </div>
+                                </div>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-textCtaImage1Col container padd-top-50    -left">
+        <div class="row">
+            <div class="m-textCtaImage1Col__contentContainer col-lg-12">
+
+                    <h2 class="m-textCtaImage1Col__heading">
+                        Insurance at your fingertips
+                    </h2>
+
+                    <div class="m-textCtaImage1Col__textContainer a-genericContainer -marginTop">
+                        Want to save time and money on car and home insurance? Start today with Onlia&rsquo;s flexible all-online policies, caring 24/7 claims service, and premium coverages at affordable prices. Get more from your insurance premium when you <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://onlia.ca/offers/bundle" target="_blank">bundle</a>.
+                    </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="o-productHighlights container  padd-bottom-50  ">
+                
+            <div class="o-productHighlights__itemsContainer">
+                            <div class="o-productHighlights__item oo-bg-light-blue">
+                                <div class="o-productHighlights__itemHeading">
+                                        <div class="o-productHighlights__itemIcon">
+                                            <image-loader alt="Online car insurance with Onlia" src="/-/media/one-onlia/auto-insurance/icons/car-alt-blue.png?rev=4763b4a36eac4664af9ae3b8c4e05a2b"></image-loader>
+                                        </div>
+                                                                            <h3>Car</h3>
+                                    <div class="o-productHighlights__itemButton">
+                                        <onlia-button :label-wrap="true" add-g-t-m="" class="-blue" gtm-label-component-name="Hero component" href="/insurance/auto-quote-express" label="Quick car quote" variant="primary"></onlia-button>
+                                    </div>
+                                </div>
+
+                                <div class="o-productHighlights__listBoxes">
+                                
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="5621519d-9c43-4535-a929-1bf1ad5da0bf"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Complete coverage</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="5621519d-9c43-4535-a929-1bf1ad5da0bf"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Ticket and accident forgiveness is standard for eligible drivers.&nbsp;
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="150fa04d-a1c6-4d26-90ea-c3266a3db501"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Over $500* in safe-driving discounts</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="150fa04d-a1c6-4d26-90ea-c3266a3db501"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Get extra discounts and rewards for driving safely with the Onlia Insurance&trade; app.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="b2c11c3f-fb29-410d-aebc-6e19ec44edc6"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Policies made for you</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="b2c11c3f-fb29-410d-aebc-6e19ec44edc6"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Customize your coverage and manage your policy online.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="c1fa4dae-5f7b-4c27-ae09-def72a330362"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Save 15%</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="c1fa4dae-5f7b-4c27-ae09-def72a330362"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Bundle your car and home insurance to save big.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="o-productHighlights__item oo-bg-light-pink">
+                                <div class="o-productHighlights__itemHeading">
+                                        <div class="o-productHighlights__itemIcon">
+                                            <image-loader alt="Home Insurance with Onlia" src="/-/media/one-onlia/home-insurance/icons/home-alt-magenta.png?rev=dda4c7fd72da4e86806404d3004796e0"></image-loader>
+                                        </div>
+                                                                            <h3>Home</h3>
+                                    <div class="o-productHighlights__itemButton">
+                                        <onlia-button :label-wrap="true" add-g-t-m="" class="-pink" gtm-label-component-name="Hero component" href="/insurance/home-quote" label="Quick home quote" variant="primary"></onlia-button>
+                                    </div>
+                                </div>
+
+                                <div class="o-productHighlights__listBoxes">
+                                
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="2bb6dc18-87cc-4b8b-9100-321e830396cf"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Save 20%</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="2bb6dc18-87cc-4b8b-9100-321e830396cf"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Bundle your car and home insurance to save even more.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="879e1797-cd81-491e-aa0f-e64aad40ff54"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Flexible policies</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="879e1797-cd81-491e-aa0f-e64aad40ff54"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Manage your insurance online, anytime.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                        <div class="o-productHighlights__boxItem">
+                                            <expandable-link inline-template>
+                                                <div>
+                                                    <onlia-button tag="button"
+                                                                type="button"
+                                                                variant="hyperlink"
+                                                                class="o-productHighlights__boxItemButton"
+                                                                :class="visible ? '' : 'collapsed'"
+                                                                :aria-expanded="visible ? 'true' : 'false'"
+                                                                aria-controls="48fc1a9e-8b42-4d27-88ea-7be5bb4cd127"
+                                                                :label-wrap="true"
+                                                                @click="visible = !visible">
+                                                                <span class="o-productHighlights__boxItemTitle">Protect your home and belongings</span>                                                        
+                                                                <drop-down-chevron :is-open="visible"
+                                                                                variant="black"
+                                                                                icon-type="myAccount"
+                                                                                class="o-productHighlights__boxItemChevron">
+                                                                </drop-down-chevron>
+                                                    </onlia-button>
+                                                    <content-toggle id="48fc1a9e-8b42-4d27-88ea-7be5bb4cd127"
+                                                                    v-model="visible"
+                                                                    :class="visible ? '' : 'collapsed'">
+                                                        <div class="o-productHighlights__boxItemText">
+                                                            Our standard policies include premium coverages like Flood and Water Damage, Home Sharing, and more.
+                                                        </div>
+                                                    </content-toggle>
+                                                </div>
+                                            </expandable-link>
+                                        </div>
+                                </div>
+                            </div>
+
+            </div>
+    </section>
+        <trust-pilot-widget configuration-id="D6zRStYb7cOlulyY6q362WXyEZjEd+LeGD194eMoAbhNydIakLXEk9nhk0DPmv6feSJ/FZFpRI1RC7lQmrSL7a0yVFoFXlK7eWvdRt0c5iU="
+                            bg-theme-class="-light"
+                            :slide-change-interval="10"
+                            :slide-pause-duration="5 * 1000"
+                            class="padd-top-50 padd-bottom-50  oo-bg-light-grey"
+                            tp-logo-aria-label="Onlia on Trustpilot website."
+                            wide>
+        </trust-pilot-widget>
+
+
+    <section class="o-articlesList">
+        <div class="o-articlesList__contentContainer container padd-top-50 padd-bottom-50  ">
+            <h2 class="o-articlesList__heading">
+                Discover more about car &amp; home insurance
+            </h2>
+
+            <div class="o-articlesList__articlesContainer">
+                <ul class="o-articlesList__ul row">
+                        <li class="o-articlesList__article col-lg-4">
+                            <article class="m-article">
+                                <div class="m-article__imageContainer">
+                                            <image-loader src="/-/media/blog-images/body-images/broken-window-car-theft.jpg?rev=ee5efc8c91364237b3484b3f4e70f302"
+                                                          alt="Online car and home insurance with Onlia"
+                                                          :aspect-ratio="0.64"
+                                                          class="m-article__thumbnail"
+                                                          object-fit="cover">
+                                            </image-loader>
+                                </div>
+
+
+                                <div class="m-article__bottomContainer">
+                                    <div class="m-article__textContainer">
+
+                                        
+                                        <div class="m-article__categoryReadTimeContainer">
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <span>On The Road</span>
+                                            
+                                            <span>5 min read</span>
+                                        </div>
+                                    <a href="/magazine/blogs/what-to-do-if-your-car-has-been-broken-into" class="o-articlesList__linkRedirect">
+                                        <h3 class="m-article__heading" title="What to do if Your Car’s Been Broken Into — and How Home Insurance can Help">What to do if Your Car’s Been Broken Into — and How Home Insurance can Help</h3>  
+                                    </a>
+                                    </div>
+                                </div>
+                               
+                            </article>
+                        </li>
+                        <li class="o-articlesList__article col-lg-4">
+                            <article class="m-article">
+                                <div class="m-article__imageContainer">
+                                            <image-loader src="/-/media/one-onlia/general-photos---comp/woman-looking-at-phone-moving-boxes-comp.jpg?rev=4d549d1ef036432f95e385f70be682c0"
+                                                          alt="Online home Insurance with Onlia"
+                                                          :aspect-ratio="0.64"
+                                                          class="m-article__thumbnail"
+                                                          object-fit="cover">
+                                            </image-loader>
+                                </div>
+
+
+                                <div class="m-article__bottomContainer">
+                                    <div class="m-article__textContainer">
+
+                                        
+                                        <div class="m-article__categoryReadTimeContainer">
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <span>No Place Like Home</span>
+                                            
+                                            <span>4 min read</span>
+                                        </div>
+                                    <a href="/magazine/blogs/renters-insurance-coverage-cost-and-more" class="o-articlesList__linkRedirect">
+                                        <h3 class="m-article__heading" title="Renters Insurance: Coverage, Cost, and More">Renters Insurance: Coverage, Cost, and More</h3>  
+                                    </a>
+                                    </div>
+                                </div>
+                               
+                            </article>
+                        </li>
+                        <li class="o-articlesList__article col-lg-4">
+                            <article class="m-article">
+                                <div class="m-article__imageContainer">
+                                            <image-loader src="/-/media/one-onlia/group-insurance/group-insurance.png?rev=24cc3d07ff3d47d89f88a9b72252f380"
+                                                          alt="Online car and home insurance with Onlia"
+                                                          :aspect-ratio="0.64"
+                                                          class="m-article__thumbnail"
+                                                          object-fit="cover">
+                                            </image-loader>
+                                </div>
+
+
+                                <div class="m-article__bottomContainer">
+                                    <div class="m-article__textContainer">
+
+                                        
+                                        <div class="m-article__categoryReadTimeContainer">
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <span>On The Road</span>
+                                            
+                                            <span>3 min read</span>
+                                        </div>
+                                    <a href="/magazine/blogs/all-in-one-guide-to-the-onlia-insurance-app" class="o-articlesList__linkRedirect">
+                                        <h3 class="m-article__heading" title="All-in-one Guide to the Onlia Insurance™ App">All-in-one Guide to the Onlia Insurance™ App</h3>  
+                                    </a>
+                                    </div>
+                                </div>
+                               
+                            </article>
+                        </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="o-heroBanner -inPage -left -top">
+            <image-loader class="o-heroBanner__bg"
+                          :src="$store.getters.breakpointMobile ? '/-/media/one-onlia/generic-banners---comp/banner_mobile_004a-comp.jpg?rev=f55809ad365e44c48392a15d2bc325a9' : '/-/media/one-onlia/generic-banners---comp/banner_desktop_004a-comp.jpg?rev=06274682e0624d3d977b6b7fc65508dd'"
+                          alt="Online car and home insurance with Onlia"
+                          object-fit="cover">
+            </image-loader>
+
+        <div class="o-heroBanner__container container">
+            <div class="o-heroBanner__col">
+                    <div class="over-h">
+                        safe-driving app
+                    </div>
+                                    <h2 class="o-heroBanner__heading h1">
+                        Drive safe, earn rewards
+                    </h2>
+                                    <div class="o-heroBanner__body">
+                        Earn cashback rewards and gift cards for driving safely with the Onlia Insurance&trade; app.
+<p style="margin-bottom:1.5rem;margin-top:1.5rem;"><a rel="noopener noreferrer" rel="noopener noreferrer" href="https://apps.apple.com/ca/app/onlia-sense/id1375476507" target="_blank"><img alt="Click to download Onlia Sense|Apple Apps Store" src="/-/media/unparented-items/apple-app/apple-app-store/apple-app-store.png?h=44&amp;w=150&amp;rev=6734ce78b74f4040980d45877ed8f0e8&amp;hash=F551B98A8B5990CAB4A827F2CF76D2AC" style="height: 44px; width: 150px;" /></a> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.services.onlia.sense" target="_blank"><img alt="Click to download Onlia Sense|Google Play Store" src="/-/media/unparented-items/apple-app/apple-app-store/google-play-store.png?h=44&amp;w=150&amp;rev=a01a4ff59e874438999c24526ab124bc&amp;hash=A12595CB9AF1964CD2A14F06B067A95D" style="height: 44px; width: 150px;" width="150" height="44" /></a></p>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+
+            </div>
+        </main>
+
+        <footer v-show="showFooter" class="o-footer" id="footer" role="contentinfo">
+            <div class="m-breadcrumbContent">
+                
+
+            </div>
+            
+
+    <chat-container>
+        <template #chatbot="{ isActive }">
+            <chat-bot :is-active="isActive" sitecore-item-i-d="{B6AFDBE2-AFF7-4E31-BDC0-80AEAE8AD569}" :is-logged-in="false"></chat-bot>
+        </template>
+
+        <template #zendesk>
+            <zendesk-live-chat chat-url="https://static.zdassets.com/ekr/snippet.js?key=d2dcaf25-183b-412b-80e7-0cb05ea2b380"
+                               chat-type="ZenDesk">
+            </zendesk-live-chat>
+        </template>
+    </chat-container>
+
+
+
+<footer-nav inline-template is-dark="is-dark">
+<div class="-dark">
+    <div class="container o-footer__container" v-cloak>
+
+        <section class="o-footer__sectionTop">
+                <div class="o-footer__logo">
+                    <a href="/"
+                       title=""
+                       target=""
+                       class="o-footer__logoLink">
+                        <image-loader alt="Onlia Insurance" src="/-/media/logos/onlia_insurance_logo_dark_footer.svg?rev=d11eaa93abdd44519a746ae8c0074dab"></image-loader>
+                        <span class="outline" tabindex="-1"></span>
+                    </a>
+                </div>
+
+                <div class="o-footer__products" v-if="!isMobile">
+                            <ul class="o-footer__widgetList">
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/car-insurance">Car<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/home-insurance">Home<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/tenant-insurance">Tenant<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/condo-insurance">Condo<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+        </ul>
+
+                </div>
+
+                <div class="o-footer__social">
+<a href="https://www.facebook.com/onliaca" rel="noopener noreferrer" title="facebook" class="o-footer__socialLink" target="_blank">Facebook<i class='o-footer__socialLinkIcon icon-facebook'></i><span class="outline" tabindex="-1"></span></a><a href="https://twitter.com/OnliaCA" rel="noopener noreferrer" title="Twitter" class="o-footer__socialLink" target="_blank">Twitter<i class='o-footer__socialLinkIcon icon-twitter'></i><span class="outline" tabindex="-1"></span></a><a href="https://www.instagram.com/onlia.ca/" rel="noopener noreferrer" title="Instagram" class="o-footer__socialLink" target="_blank">Instagram<i class='o-footer__socialLinkIcon icon-instagram'></i><span class="outline" tabindex="-1"></span></a>                </div>
+
+        </section>
+                <section class="o-footer__products -mobile" v-if="isMobile">
+                            <ul class="o-footer__widgetList">
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/car-insurance">Car<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/home-insurance">Home<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/tenant-insurance">Tenant<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/condo-insurance">Condo<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+        </ul>
+
+                </section>
+        
+        <section class="o-footer__sectionWidget">
+            
+            
+        <ul class="o-footer__widgetList">
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/about">About<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/magazine">Magazine<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" title="Auto insurance" href="/press-room">Press room<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/savings/discounts">Discounts<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/group-insurance">Group<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/claims">Claims<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/support">Support<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/safe-driving-app">App<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+                <li class="o-footer__widgetListItem">
+<a class="o-footer__link" href="/help/report-fraud">Report fraud<span class="outline" tabindex="-1"></span></a>                    
+                </li>
+        </ul>
+        </section>
+        <section class="o-footer__sectionBottom">
+                <div class="o-footer__bottomLinks">
+                            <span class="o-footer__bottomLinkWrapper">
+                                <a class="o-footer__link" href="/about/conditions-of-use">Terms of use<span class="outline" tabindex="-1"></span></a>
+                            </span>
+                            <span class="o-footer__bottomLinkWrapper">
+                                    <span class="o-footer__linkSeparator"></span>
+                                <a class="o-footer__link" href="/about/privacy-notice">Privacy<span class="outline" tabindex="-1"></span></a>
+                            </span>
+                            <span class="o-footer__bottomLinkWrapper">
+                                    <span class="o-footer__linkSeparator"></span>
+                                <a class="o-footer__link" href="/about/payment-agreement">Payments<span class="outline" tabindex="-1"></span></a>
+                            </span>
+                            <span class="o-footer__bottomLinkWrapper">
+                                    <span class="o-footer__linkSeparator"></span>
+                                <a class="o-footer__link" href="/about/accessibility">Accessibility<span class="outline" tabindex="-1"></span></a>
+                            </span>
+                            <span class="o-footer__bottomLinkWrapper">
+                                    <span class="o-footer__linkSeparator"></span>
+                                <a class="o-footer__link" href="/sitemap">Sitemap<span class="outline" tabindex="-1"></span></a>
+                            </span>
+
+                        <span class="o-footer__bottomLinkWrapper">
+                            <span class="o-footer__linkSeparator"></span>
+                            <surfly-widget class="o-footer__link" widget-key="37c745e2f78340bcb63c637906f3352c" widget-url="https://surfly.com/surfly.js"></surfly-widget>
+                        </span>
+                </div>
+            <div class="m-toggleLegal">
+                <div class="m-toggleLegal__text">
+                    <p>&copy;2023 Onlia Holding Inc. Onlia, Onlia Agency Inc., Onlia Sense and the Conversational Cloud Logo are trademarks of Onlia Holding Inc., used under licence.<br />
+All Rights Reserved.</p>
+                </div>
+
+                    <content-toggle v-model="isLegalOpen"
+                                    :class="{ '-collapsed' : !isLegalOpen }">
+                        <div class="m-toggleLegal__content"><p>Insurance products distributed by Onlia Agency Inc. are underwritten by Verassure Insurance Company. The quote for insurance provided by Onlia Agency Inc. is intended as an estimate and is&nbsp;not&nbsp;guaranteed to be accurate. Actual policy terms, including your premiums and coverage, are determined once we verify the information you provide and accept your application for insurance.</p>
+<p>Refer to your policy for the most detailed and accurate information about your coverage and terms of insurance. Your policy, which serves as your insurance contract, will always prevail if there&rsquo;s ever&nbsp;a&nbsp;conflict with the information found on this site. Certain statements made on our website are representative of Onlia&rsquo;s portfolio of insurance customers, and not necessarily one individual risk. Some&nbsp;coverage&nbsp;exclusions&nbsp;may&nbsp;apply. </p>
+<p>*Savings are based on re-calculating our policyholder&rsquo;s premiums based on current rates and comparing premiums with and without all discounts being applied to the total amount.</p>
+<p>*Individual quote times and savings may vary. Visit FAQs for details on discount eligibility and conditions.</p>
+<p>&nbsp;</p></div>
+                    </content-toggle>
+                    <onlia-button
+                                  tag="button"
+                                  type="button"
+                                  variant="hyperlink"
+                                  class="m-toggleLegal__link"
+                                  :class="isLegalOpen ? '' : 'collapsed'"
+                                  :aria-expanded="isLegalOpen ? 'true' : 'false'"
+                                  aria-controls="legalCollapsed"
+                                  :label-wrap="true"
+                                  @click="isLegalOpen = !isLegalOpen">
+                        <drop-down-chevron
+                                           :is-open="isLegalOpen"
+                                           icon-type="myAccount"
+                                           class="m-toggleLegal__chevron">
+                        </drop-down-chevron>
+
+                        {{ isLegalOpen ? "Collapse legal" : "Expand legal" }}
+                    </onlia-button>
+            </div>
+        </section>
+    </div>
+</div>
+</footer-nav>
+
+
+
+<session-props-provider inline-template>
+    <session-expired inline-template
+                     v-cloak
+                     :session-out-public-redirect="sessionOutPublicRedirect"
+                     :session-out-private-redirect="sessionOutPrivateRedirect"
+                     :session-enabled="sessionEnabled"
+                     :is-authenticated="isAuthenticated"
+                     :page-editor="pageEditor"
+                     :funnel-in-progress="funnelInProgress"
+                     :session-waiting-buffer="sessionWaitingBuffer">
+        <global-modal ref="session-modal"
+                      id="session-modal"
+                      no-close-on-backdrop
+                      no-close-button>
+
+            <template #heading>
+                Are you still there?
+            </template>
+
+            <template #body>
+                <div class="temp-data-warning-modal__message">
+                    <div v-if="!isSessionExpired">
+                        <p>It seems you've stepped away! We'll end your session in&nbsp;{{remaining}} seconds, unless you'd rather we didn't.</p>
+                    </div>
+                    <div v-else>
+                        <p>Your session has ended. Sorry! </p>
+<p>Redirecting in {{redirection}} seconds...</p>
+                    </div>
+                </div>
+            </template>
+
+
+            <template #primary-button>
+                <onlia-button v-if="!isSessionExpired"
+                              tag="button"
+                              type="button"
+                              label="Continue session"
+                              @click="retainSession">
+                </onlia-button>
+
+                <onlia-button v-else
+                              tag="button"
+                              type="button"
+                              label="Close"
+                              @click="expireSession">
+                </onlia-button>
+            </template>
+        </global-modal>
+    </session-expired>
+</session-props-provider>
+
+
+
+<error-modal modal-type="error" inline-template v-cloak>
+    <global-modal ref="error-modal"
+                  :id="globalModalID"
+                  :close-button-attributes="{ 'aria-label' : 'Close' }">
+        <template #heading>
+            Sorry, we hit a snag...
+        </template>
+
+        <template #body>
+            <div class="text-center">
+                <section v-html="ErrorMsg"></section>
+                <section v-if="ErrorCode">
+                    Message ID: 
+                    <span v-text="ErrorCode"></span>
+                </section>
+            </div>
+        </template>
+
+        <template #secondary-button>
+            <onlia-button
+                tag="button"
+                type="button"
+                variant="secondary"
+                @click="close"
+                gtm-label-component-name="Component Pop-up"
+                :gtm-track-virtual-page="$store.state.analytics.isVirtualPage"
+                add-g-t-m>
+                Close
+            </onlia-button>
+        </template>
+    </global-modal>
+</error-modal>
+
+
+
+    <cynolytics-script cynolytics-url="https://onlia-ca-pixel-cynolytics.outshared.services"></cynolytics-script>
+
+
+        </footer>
+
+        
+<!-- Usabilla Combicode for Onlia-->
+<!-- Begin Usabilla for Websites embed code -->
+<script type="text/javascript">/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t) { 
+ f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};
+ a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({}); if(!navigator.userAgent.match(/Android|BlackBerry|BB10|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/59a360f635d6.js"); } else {window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/434f5fd7d100.js"); }/*]]>{/literal}*/
+window.usabilla_live("hide");
+</script>
+<!-- End Usabilla for Websites embed code -->
+
+<!-- Begin Usabilla for Websites screenshot code -->
+<script>window.usabilla_live("setEventCallback", function (category, action, label, value, eventdata) {
+    //console.log(action);
+	if ( action == 'undefined' ) {
+        return;
+    }
+
+    if ( action != "Feedback:Open" ) {
+        return
+    }
+	
+	const header = document.querySelectorAll('.header')[0];
+    const chatbot = document.querySelector('[data-cxco-dci]');
+
+    if ( action = "Feedback:Open" ) {
+        //MODIFY CODE TO HIDE SPECIFIC ELEMENT HERE
+        header.style.display = "none";
+		if(chatbot){
+			chatbot.style.display = "none";
+		}
+    }
+
+    setTimeout(function () {
+        //CODE TO DISPLAY ELEMENT
+        header.style.display = "block";
+		if(chatbot){
+			chatbot.style.display = "block";
+		}
+    }, 1200);
+});</script>
+<!-- End Usabilla for Websites screenshot code -->
+
+    </div>
+
+
+<script>
+  var ir = {
+        authenticated: false,
+        antiforgeryKey: 'o29B1jEonrCH6s2XgJbN_C2ZSbCms9DOAcCVVtkIF7l6noOQXTgzSwmP7gLiYmdG3w857Q8bjvX27_Zvipw18cWNyl6eDXgE5tmUqn0WkiI1',
+        antiforgeryHeaderName: 'x-antiForgeryToken',
+        pageEditor: false,
+        funnelInProgress: false,
+        sessionPopupEnabled: true,
+        sessionExpirationUrl: '/session-expired',
+        relationId: '',
+        uiRouter: {},
+        loginUrl: '/insurance/sign-in',
+        transUnionPublicKey: 'd40a004f315c4292aa52136a441dfdb5'
+    };
+</script>
+
+<script src="/Onlia/dist/vendors.main.80ef3423f360a0713071.js"></script>
+<script src="/Onlia/dist/layout.da1eaad832a9d4b0566a.js"></script>
+
+<script src="/Onlia/dist/vendors.forms.14572306718c15a5b396.js"></script>
+<script src="/Onlia/dist/forms.2fda927f3998e3f60f8b.js"></script>
+<script src="/Onlia/dist/funnel.cd20abc95919905220e6.js"></script>
+<script src="/Onlia/dist/myzone.caac0dc4e6fa7c364ea0.js"></script>
+<script src="/Onlia/dist/chatbot.9351a5d60a62dca56e40.js"></script>
+<script src="/Onlia/dist/app.chatbot.0fe08ecbee190942f8ac.js"></script>
+</body>
+
+</html>

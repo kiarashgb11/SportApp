@@ -10,12 +10,12 @@ import SquareImageGrid from './ImageBox'
 import SearchBar from 'react-native-platform-searchbar';
 const Search = () => {
     const [value, setValue] = useState('');
-    const [size, setSize] = useState(20);
+    const [size, setSize] = useState(100);
     
     return(<SearchBar
         //onPressIn={() => setSize("100%")}
         onFocus={() => setSize(100)}
-        onBlur ={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setSize(20)}}
+        onBlur ={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setSize(100)}}
         value={value}
         onChangeText={setValue}
         theme={'dark'}
@@ -26,11 +26,6 @@ const Search = () => {
 };
 const MainImages = (props: any) => {
     return(<SquareImageGrid />);
-    return (
-<Image style={{width:"50%",
- height:"50%", flex:1, paddingLeft: 10,
- resizeMode:'contain', position:'absolute', top:0}} source={require("./images/soccer.png")}/>
-    );
 }
 
 const MainView = (props: any) => {
