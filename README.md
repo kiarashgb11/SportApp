@@ -5,8 +5,13 @@ Overview
 
 Features
   _**League Coverage:**_ Stay updated with the latest statistics from the top 3 European football leagues.
+ 
   _**Team Stats:**_ View detailed statistics for each team, including games played, won, lost, goals scored, and goals  conceded.
+  
   _**Player Profiles:**_ Dive deep into player statistics, including goals, assists, and other performance metrics.
+  
   _**User-Friendly Interface:**_ The app is designed with a clean and intuitive interface for easy navigation.
+  
   _**Real-time Updates:**_ Stay in the loop with real-time updates and scores during live matches.
+  
   _**API Integration:**_ We've harnessed the power of APIs to ensure accurate and up-to-date information.
