@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import type {PropsWithChildren} from 'react';
 import { useNavigation , useRoute} from '@react-navigation/native';
 import {
@@ -118,8 +118,11 @@ const IMAGES = [
 ];
 
 const SoccerPage = () => {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
   const route = useRoute()
   console.log(route.params);
+  useEffect(() => {
   fetch('https://api.football-data.org/v4/competitions/' + route.params.league + '/standings', {
   method: 'GET',
   headers: {
@@ -127,22 +130,48 @@ const SoccerPage = () => {
   },
 }).then(response => response.json())
 .then(json => {
-  console.log(json.standings[0].table[1].team.name);
+  setData(json.standings[0].table);
+  setLoading(false);
+  // for (let i =0; i<20; i++) {
+  //   (json.standings[0].table[i].team.name);
+  // }
+  
+})
+.catch((error) => {
+  console.error('Error fetching data:', error);
+  setLoading(false);
 });
-console.log
-  if (route.params.league == 'PL'){
+}, []);
+
+
+    // return (
+    //   <View style={styles.container}>
+    //     {t.map((ti) => (
+    //       <TouchableOpacity key={index} onPress={image.onPress}>
+    //         <View style={[styles.imageContainer, { backgroundColor: image.backgroundColor }]}>
+    //           <Image source={image.imageUri} style={styles.image} />
+    //         </View>
+    //       </TouchableOpacity>
+    //     ))}
+    //   </View>
+      
+    // );
+
     return (
-      <View style={styles.container}>
-        {IMAGES.map((image, index) => (
-          <TouchableOpacity key={index} onPress={image.onPress}>
-            <View style={[styles.imageContainer, { backgroundColor: image.backgroundColor }]}>
-              <Image source={image.imageUri} style={styles.image} />
-            </View>
-          </TouchableOpacity>
-        ))}
+      <View>
+        {loading ? (
+          <Text>Loading...</Text>
+        ) : (
+          <Text>
+            {data.map((item) => (
+              <Text key={item.id}>{item.team.name}</Text>
+              
+            ))}
+          </Text>
+        )}
       </View>
     );
-  }
+  
 
   // return (
     
