@@ -162,12 +162,11 @@ const SoccerPage = () => {
         {loading ? (
           <Text>Loading...</Text>
         ) : (
-          <Text>
+          <View style={styles.listItem}>
             {data.map((item) => (
               <Text key={item.id}>{item.team.name}</Text>
-              
             ))}
-          </Text>
+          </View>
         )}
       </View>
     );
@@ -210,7 +209,14 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius:7,  
-  }
+  },
+  listItem: {
+    width: 400,
+    height: 400,
+    borderRadius: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default SoccerPage;
