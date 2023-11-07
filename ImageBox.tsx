@@ -10,7 +10,7 @@ const IMAGES = [
     imageUri: require('./images/PL.png'),
     backgroundColor: '#EBBC00',
     onPress: () => console.log('Image 1 clicked'),
-    place: "Leagues",
+    place: "Teams",
     name:"PL"
     
   },
@@ -18,14 +18,14 @@ const IMAGES = [
     backgroundColor: '#EBBC00',
     imageUri: require('./images/LaLiga.png'),
     onPress: () => console.log('Image 2 clicked'),
-    place: "Leagues",
+    place: "Teams",
     name:"PD"
   },
   {
     imageUri: require('./images/SerieA.png'),
     backgroundColor: '#EBBC00',
     onPress: () => console.log('Image 5 clicked'),
-    place: "Leagues",
+    place: "Teams",
     name:"SA"
   }
 ];
