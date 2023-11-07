@@ -14,4 +14,4 @@ Features
   
   _**Real-time Updates:**_ Stay in the loop with real-time updates and scores during live matches.
   
-  _**API Integration:**_ We've harnessed the power of APIs to ensure accurate and up-to-date information.
+  _**API Integration:**_ We've integrated APIs to ensure accurate and up-to-date information.
