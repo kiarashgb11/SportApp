@@ -43,7 +43,11 @@ function App(): JSX.Element {
           options={{headerShown: false}}
           component={HomeScreen}
         />
-        <Stack.Screen name="Leagues" 
+        <Stack.Screen name="Teams" 
+        options={{ 
+          headerStyle: { backgroundColor: '#21252e' },
+          headerTitleStyle: {color: 'white'}
+        }}
         component={SoccerPage}
          />
       </Stack.Navigator>

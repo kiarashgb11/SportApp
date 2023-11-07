@@ -22,100 +22,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-// const IMAGES = [
-//   {imageUri: require('./images/PL.png')
-//   ,backgroundColor: 'red'},
-//   require('./images/LaLiga.png'),
-//   require('./images/SerieA.png'),
-//   require('./images/Ligue1.png'),
-// ];
-
-// import MainView from './MainView';
-
-// const SoccerPage = () => {
-//     const isDarkMode = useColorScheme() === 'dark';
-  
-//     const backgroundStyle = {
-//       backgroundColor: isDarkMode ? Colors.darker : Colors.darker,
-//     };
-//     return (
-  
-      
-//       <View style={{backgroundColor:"#181B22", flex:1}}>  
-//       <LeaguesGrid />
-//       </View>
-      
-//     );
-//   }
-
-//   const LeaguesGrid = (props: any) => {
-//     const { width} = Dimensions.get('window');
-//     const imageSize = width * 0.5 - 20;
-//     const navigation = useNavigation();
-//     return (
-//       <View style={styles.container}>
-//         <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => navigation.navigate("Leagues")} >
-//           <Image source={IMAGES[0]}  style = {{width: imageSize, height: imageSize}}/>
-//         </TouchableOpacity>
-//         <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
-//           <Image source={IMAGES[1]}  style = {{width: imageSize, height: imageSize }}/>
-//         </TouchableOpacity>
-//         <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
-//           <Image source={IMAGES[2]}  style = {{width: imageSize, height: imageSize }}/>
-//         </TouchableOpacity>
-//         <TouchableOpacity style={ [ styles.image, {width: imageSize, height: imageSize }]} onPress={() => Try()}>
-//           <Image source={IMAGES[3]}  style = {{width: imageSize, height: imageSize }}/>
-//         </TouchableOpacity>
-//       </View>
-//     );
-//   };
-
-//   const styles = StyleSheet.create({
-//     container: {
-//       flex: 1,
-//       flexDirection: 'column',
-//       justifyContent: 'center',
-      
-//       paddingBottom:25,
-//     },
-//     image: {
-//       margin: 2,
-//       flex:0.25,
-//       padding:0,
-//     },
-//   });
-
-
-
-const IMAGES = [
-  {
-    imageUri: require('./images/PL.png'),
-    backgroundColor: '#1CE200',
-    text: 'Premier League',
-    onPress: () => console.log('Image 1 clicked')
-    
-  },
-  {
-    backgroundColor: '#1CE200',
-    imageUri: require('./images/LaLiga.png'),
-    onPress: () => console.log('Image 2 clicked')
-  },
-  {
-    imageUri: require('./images/NewProject(1).png'),
-    backgroundColor: '#1CE200',
-    onPress: () => console.log('Image 3 clicked')
-  },
-  {
-    imageUri: require('./images/Bundesliga.png'),
-    backgroundColor: '#1CE200',
-    onPress: () => console.log('Image 4 clicked')
-  },
-  {
-    imageUri: require('./images/SerieA.png'),
-    backgroundColor: '#1CE200',
-    onPress: () => console.log('Image 5 clicked')
-  }
-];
 
 const SoccerPage = () => {
   const [data, setData] = useState([]);
@@ -130,7 +36,9 @@ const SoccerPage = () => {
   },
 }).then(response => response.json())
 .then(json => {
-  setData(json.standings[0].table);
+  var l = json.standings[0].table;
+  l.unshift({"team":{"name": "Teams"}, "won": "W", "draw": "D", "lost":"L", "goalsFor":"GF", "goalsAgainst":"GA", "points":"P"});
+  setData(l);
   setLoading(false);
   // for (let i =0; i<20; i++) {
   //   (json.standings[0].table[i].team.name);
@@ -158,13 +66,24 @@ const SoccerPage = () => {
     // );
 
     return (
-      <View>
+      <View style={{backgroundColor:"#181B22", height:"100%"}}>
         {loading ? (
           <Text>Loading...</Text>
         ) : (
-          <View style={styles.listItem}>
-            {data.map((item) => (
-              <Text key={item.id}>{item.team.name}</Text>
+          <View >
+            {data.map((item, i) => (
+              <View  style={styles.listContainer} key={item.id}>
+                <Text style={i!==0 ? styles.listWon : styles.listWonH}>{i}</Text>
+                <Text style={i!==0 ? styles.listName : styles.listNameHeading}>{item.team.name}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.won}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.draw}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.lost}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.goalsFor}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.goalsAgainst}</Text>
+                <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.points}</Text>
+
+                </View>
+              
             ))}
           </View>
         )}
@@ -210,13 +129,72 @@ const styles = StyleSheet.create({
     height: 100,
     borderRadius:7,  
   },
-  listItem: {
-    width: 400,
-    height: 400,
-    borderRadius: 40,
-    justifyContent: 'center',
-    alignItems: 'center',
+  listNameHeading: {
+    width: 160,
+    color: '#ffffff',
+    marginTop: 4,
+    marginBottom: -4,
+    paddingHorizontal: 5,
+    fontWeight: "bold",
+    fontSize: 18,  
   },
+  listName: {
+    width: 160,
+    color: '#DDDDDD',
+ 
+    borderColor: '#EBBC00',
+    borderWidth: 1,
+    borderRadius:6, 
+    marginBottom: 5,
+    marginTop: 5,
+    paddingVertical: 2.2,
+    paddingHorizontal: 5,
+    
+    
+  },
+  listContainer:{
+    flexDirection: "row",
+    justifyContent:"space-between",
+    width:'100%',
+    
+    
+  },
+  listWon: {
+    color: '#DDDDDD',
+    width: 32,
+    marginBottom: 5,
+    marginTop: 5,
+    paddingHorizontal: 5,
+    
+    alignSelf: "center",
+    
+    
+  },
+  listWonH: {
+    color: '#181B22',
+    width: 32,
+    marginBottom: 5,
+    marginTop: 5,
+    paddingHorizontal: 5,
+    
+    alignSelf: "center",
+    
+    
+  },
+  listWonB: {
+    color: '#ffffff',
+    width: 32,
+    marginBottom: 5,
+    marginTop: 5,
+    paddingHorizontal: 5,
+    
+    alignSelf: "center",
+    fontWeight: "bold",
+    fontSize: 14,  
+    
+    
+  },
+
 });
 
 export default SoccerPage;
