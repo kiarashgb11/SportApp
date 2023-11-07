@@ -1,1 +1,0 @@
-Kj.Advertising=function(){return{"canDisplay":!0}}();
