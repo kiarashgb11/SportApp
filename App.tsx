@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import MainView from './MainView';
 import SoccerPage from './SoccerPage'
+import PlayerPage from './PlayerPage'
 
 import {NavigationContainer} from '@react-navigation/native'
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -49,6 +50,10 @@ function App(): JSX.Element {
           headerTitleStyle: {color: 'white'}
         }}
         component={SoccerPage}
+         />
+         <Stack.Screen 
+          name = "Players"
+          component={PlayerPage}
          />
       </Stack.Navigator>
     </NavigationContainer>
