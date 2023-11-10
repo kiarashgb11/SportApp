@@ -27,6 +27,7 @@ import {
 import MainView from './MainView';
 import SoccerPage from './SoccerPage'
 import PlayerPage from './PlayerPage'
+import StatsPage from './StatsPage'
 
 import {NavigationContainer} from '@react-navigation/native'
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -54,6 +55,18 @@ function App(): JSX.Element {
          <Stack.Screen 
           name = "Players"
           component={PlayerPage}
+          options={{ 
+            headerStyle: { backgroundColor: '#21252e' },
+            headerTitleStyle: {color: 'white'}
+          }}
+         />
+         <Stack.Screen 
+          name = "Stats"
+          component={StatsPage}
+          options={{ 
+            headerStyle: { backgroundColor: '#21252e' },
+            headerTitleStyle: {color: 'white'}
+          }}
          />
       </Stack.Navigator>
     </NavigationContainer>
