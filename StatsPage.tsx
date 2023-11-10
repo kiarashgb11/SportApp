@@ -23,25 +23,26 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 
-const PlayerPage = () => {
+const StatsPage = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const route = useRoute()
   console.log(route.params);
   useEffect(() => {
-  fetch('https://api.football-data.org/v4/teams/' + route.params.teamId, {
+  fetch('https://api.football-data.org/v4/persons/' + route.params.playerId + '/matches?limit=10', {
   method: 'GET',
   headers: {
     'X-Auth-Token': '02ca5ad60fff4b9c81aa6163f6f4ae09'
   },
 }).then(response => response.json())
 .then(json => {
-  var l = json.squad;
+  var l = json;
+//   l.unshift({"team":{"name": "Teams"}, "won": "W", "draw": "D", "lost":"L", "goalsFor":"GF", "goalsAgainst":"GA", "points":"P"});
   setData(l);
   setLoading(false);
-  // for (let i =0; i<20; i++) {
-  //    console.log((json.squad[i]));
-  // }
+  for (let i =0; i<20; i++) {
+     console.log((json.matches[0].odds));
+  }
   
 })
 .catch((error) => {
@@ -50,7 +51,7 @@ const PlayerPage = () => {
 });
 }, []);
 
-  const navigation = useNavigation();
+
     return (
       
       <View style={{ backgroundColor:"#181B22", height:"100%"}}>
@@ -60,14 +61,8 @@ const PlayerPage = () => {
 
           
           <ScrollView  >
-            {data.map((item, i) => (
-              <View style={styles.listContainer} key={item.id}>
-                <Text 
-                onPress={()=>navigation.navigate("Stats", {playerId:item.id})}
-                style={styles.listName}>{item.name}</Text>
-              </View>
-              
-            ))}
+           <Text style={styles.listName}>The last component of this app, requires access to a paid API. Due to budget constraints, we were unable to integrate this component into the public version available on GitHub. If you'd like to experience the full 
+            functionality of the app, please contact us for a demonstration.</Text>
           </ScrollView>
         )}
       </View>
@@ -77,15 +72,6 @@ const PlayerPage = () => {
 };
 
 const styles = StyleSheet.create({
-  listNameHeading: {
-    width: 160,
-    color: '#ffffff',
-    marginTop: 4,
-    marginBottom: -4,
-    paddingHorizontal: 5,
-    fontWeight: "bold",
-    fontSize: 18,  
-  },
   listName: {
     width: '100%',
     color: '#DDDDDD',
@@ -94,24 +80,13 @@ const styles = StyleSheet.create({
     marginTop: 5,
     paddingVertical: 2.2,
     paddingHorizontal: 5,
+    alignContent: "center",
     
     
     
     
   },
-  listContainer:{
-    
-   
-    borderWidth: 1,
-    borderRadius:6, 
-    marginBottom: 5,
-    borderColor: '#EBBC00',
-    width: "100%",
-    alignSelf: "center",
-  
-    
-  }
 
 });
 
-export default PlayerPage;
+export default StatsPage;

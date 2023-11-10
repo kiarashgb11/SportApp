@@ -57,7 +57,7 @@ const navigation = useNavigation();
         {loading ? (
           <Text>Loading...</Text>
         ) : (
-          <View >
+          <ScrollView >
             {data.map((item, i) => (
               <View  style={styles.listContainer} key={item.id}>
                 <Text style={i!==0 ? styles.listWon : styles.listWonH}>{i}</Text>
@@ -73,7 +73,7 @@ const navigation = useNavigation();
                 </View>
               
             ))}
-          </View>
+          </ScrollView>
         )}
       </View>
     );
