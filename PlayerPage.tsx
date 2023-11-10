@@ -23,22 +23,22 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 
-const SoccerPage = () => {
+const PlayerPage = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const route = useRoute()
   console.log(route.params);
   useEffect(() => {
-  fetch('https://api.football-data.org/v4/competitions/' + route.params.league + '/standings', {
+  fetch('https://api.football-data.org/v4/teams/' + route.params.teamId, {
   method: 'GET',
   headers: {
     'X-Auth-Token': '02ca5ad60fff4b9c81aa6163f6f4ae09'
   },
 }).then(response => response.json())
 .then(json => {
-  var l = json.standings[0].table;
-  l.unshift({"team":{"name": "Teams"}, "won": "W", "draw": "D", "lost":"L", "goalsFor":"GF", "goalsAgainst":"GA", "points":"P"});
-  setData(l);
+  var l = json.squad;
+//   l.unshift({"team":{"name": "Teams"}, "won": "W", "draw": "D", "lost":"L", "goalsFor":"GF", "goalsAgainst":"GA", "points":"P"});
+//   setData(l);
   setLoading(false);
   // for (let i =0; i<20; i++) {
   //   (json.standings[0].table[i].team.name);
@@ -50,7 +50,20 @@ const SoccerPage = () => {
   setLoading(false);
 });
 }, []);
-const navigation = useNavigation();
+
+
+    // return (
+    //   <View style={styles.container}>
+    //     {t.map((ti) => (
+    //       <TouchableOpacity key={index} onPress={image.onPress}>
+    //         <View style={[styles.imageContainer, { backgroundColor: image.backgroundColor }]}>
+    //           <Image source={image.imageUri} style={styles.image} />
+    //         </View>
+    //       </TouchableOpacity>
+    //     ))}
+    //   </View>
+      
+    // );
 
     return (
       <View style={{backgroundColor:"#181B22", height:"100%"}}>
@@ -61,8 +74,7 @@ const navigation = useNavigation();
             {data.map((item, i) => (
               <View  style={styles.listContainer} key={item.id}>
                 <Text style={i!==0 ? styles.listWon : styles.listWonH}>{i}</Text>
-                <Text onPress={()=>navigation.navigate("Players", {teamId:item.team.id})}
-                 style={i!==0 ? styles.listName : styles.listNameHeading}>{item.team.name}</Text>
+                <Text style={i!==0 ? styles.listName : styles.listNameHeading}>{item.team.name}</Text>
                 <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.won}</Text>
                 <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.draw}</Text>
                 <Text style={i!==0 ? styles.listWon : styles.listWonB}>{item.lost}</Text>
@@ -185,4 +197,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default SoccerPage;
+export default PlayerPage;
